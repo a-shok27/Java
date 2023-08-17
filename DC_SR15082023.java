@@ -1,6 +1,6 @@
 package Java;
 
-import java.util.*;
+//import java.util.*;
 
 public class DC_SR15082023{
     public static boolean isVowel(char c){
@@ -12,8 +12,8 @@ public class DC_SR15082023{
         }
     }
     public static void main(String []args){
-        Scanner sc=new Scanner(System.in);
-        String s=sc.nextLine();
+        //Scanner sc=new Scanner(System.in);
+        String s="Boolean Table";
         for(int i=0;i<s.length();i++){
             if((s.charAt(i)>='a'&&s.charAt(i)<='z')||(s.charAt(i)>='A'&&s.charAt(i)<='Z')||(s.charAt(i)=='.')||(s.charAt(i)=='@')||(s.charAt(i)=='_')){
                 if(isVowel(s.charAt(i))){

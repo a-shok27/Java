@@ -15,7 +15,7 @@ public class SR_MORSECODE {
 		    int z=s1[i].length();
 		    for(int j=97;j<=122;j++){
 		        if(a[j]==z){
-		            System.out.print((char)j+);
+		            System.out.print((char)j);
 		            break;
 		        }
 		    }

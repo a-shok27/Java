@@ -36,6 +36,7 @@ public class SR_UndoOperation {
                                 break;
                             }
                         }
+                        h=0;
                         for(int pp=0;pp<c.length;pp++){
                             if(c[pp]!='*'){
                                 tik=1;

@@ -3,7 +3,8 @@ package Java;
 import java.util.Scanner;
 
 public class DT_SR22082023 {
-    Scanner sc=new Scanner(System.in);
+	public static void main(String[] args){
+    try (Scanner sc = new Scanner(System.in)) {
 		int n=sc.nextInt();
 		int t1=n-1;
 		int t2=n-1;
@@ -54,5 +55,8 @@ public class DT_SR22082023 {
 		for(int i=s1.length-1;i>=0;i--){
 		    System.out.println(s1[i]);
 		}
+	}
 		System.out.print(".");
+	}
+		
 }

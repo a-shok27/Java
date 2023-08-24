@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SR_BAND {
         public static void main(String[] args) {
-		try (//Your Code Here
+		try (
         Scanner sc = new Scanner(System.in)) {
             int n=sc.nextInt();
             int a[]=new int[n];
